@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "TODO: Title"
-  text: "TODO: Subtitle"
-  tagline: "TODO: Tagline"
+  name: "Brian Chen"
+  text: "Student's Portfolio"
+  tagline: "A portfolio awakens..."
   actions:
     - theme: brand
       text: Template Repository
