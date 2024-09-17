@@ -17,31 +17,31 @@ Finally, the code name of this project is **MeetOut**.
 
 ### Comparables
 
-![GatherTownexample](../../assets/images/assignment2/gather%20town%20lobby.webp){:width="400"}
+![GatherTownexample](../../assets/images/assignment2/gather%20town%20lobby.webp){:width="200"}
 
 Conversations in a table/desk in Gather Town: Could we assign certain spaces dedicated specially for reaching out to people and engage/start causal conversations?
 
-![ClubPenguinHome](../../assets/images/assignment2/club%20penguin%20home.png){:width="400"}
+![ClubPenguinHome](../../assets/images/assignment2/club%20penguin%20home.png){:width="200"}
 
 Personal Costumizable Rooms in Club Penguin: Could we augment the normal user profile with more user creative costumization and a place to hang out with other users?
 
-![PlaceReddit](../../assets/images/assignment2/place%20reddit.gif){:width="400"}
+![PlaceReddit](../../assets/images/assignment2/place%20reddit.gif){:width="200"}
 
 Community-made White Board in r/place in Reddit: Could we make a board where users can contribute/collaborate on drawings and built on top of works done by other users as another form of interactive communication?
 
-![InstagramWarning](../../assets/images/assignment2/instagram%20reminder.webp){:width="400"}
+![InstagramWarning](../../assets/images/assignment2/instagram%20reminder.webp){:width="200"}
 
 Warning/Reminder pop-ups in Instagram: Could we apply these types of reminders on subjects about dangers like grooming and/or sensitive topics and give advice on how to avoid or prevent these type of situtations?
 
-![DiscordPublicServers](../../assets/images/assignment2/public%20discord%20servers.png){:width="400"}
+![DiscordPublicServers](../../assets/images/assignment2/public%20discord%20servers.png){:width="200"}
 
 Public Servers in Discord: Could we create a similar system for searching on different servers/groups but for smaller groups, categorized by interest, topic, game, etc.?
 
-![BeReal](../../assets/images/assignment2/bereal.png){:width="400"}
+![BeReal](../../assets/images/assignment2/bereal.png){:width="200"}
 
 Limited Time Engagement in BeReal: In BeReal, originally you only had 1 minute to able to post one selfie every day. Could we apply this type of limit with more time, so people are more meticulous with the time they have?
 
-![VRLobby](../../assets//images//assignment2/vrchat%20lobby.webp){:width="400"}
+![VRLobby](../../assets//images//assignment2/vrchat%20lobby.webp){:width="200"}
 
 Costumized lobbies in VRChat: Could we use this idea to give users the ability to customized their environments for their servers/communities so it fits with their niche?
 
