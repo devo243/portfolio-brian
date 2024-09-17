@@ -39,3 +39,8 @@ Limited Time Engagement in BeReal: In BeReal, originally you only had 1 minute t
 
 ![VRLobby](../../assets//images//assignment2/vrchat%20lobby.webp)
 Costumized lobbies in VRChat: Could we use this idea to give users the ability to customized their environments for their servers/communities so it fits with their niche?
+
+---
+
+### Feature Design Ideas
+
