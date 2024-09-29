@@ -218,6 +218,8 @@ A person gives a password and a name to get access to a user in the platform wit
 
 ## Wireframe
 
+Click here to see artBook's ![Wireframe](https://www.figma.com/design/uQL9r5bzqEBRvhbDEOmemq/artBook?node-id=1-701&t=Pfn6azgnzm6DYmim-1)
+
 ---
 
 ## Tradeoffs
