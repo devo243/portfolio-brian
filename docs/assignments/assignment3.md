@@ -224,6 +224,48 @@ Click here to see artBook's ![Wireframe](https://www.figma.com/design/uQL9r5bzqE
 
 ## Tradeoffs
 
+1. Deciding Post Content Type
+
+Although the focus of the platform was based in fanarts/drawings, I wasn't sure if I wanted to include other type of content like videos or prompts that could enhance the experience.
+
+My options where:
+
+- Adding Videos
+
+- Adding Text Prompts
+
+- Keeping the content only being images
+
+In the end, I decided to only use images as I felt if I included other types of content, it could make it less clear that it was a platform focused on fanart. 
+
+2. Adding User to User/Post Interaction
+
+While designing, I was thinking of ways the user could interact with other users and posts to make it feel more as a social environment and have more engagement on the platform.
+
+My options where:
+
+- Adding comments
+
+- Adding a favoriting system
+
+- Not adding any type of interaction
+
+Finally, I did feel the platform needs some basic level of post engagement and so I decided to add a favoriting system but I decided not to go with the comments. Mainly, the reason why is that I felt comments where not as useful given that the platform is focused on sharing fanart.
+
+3. Featuring Content to Users
+
+Another challenge I had, is thinking on how to give the content to the users.
+
+My options where:
+
+- Creating a big feed for of all posts of the user's communities
+
+- Only giving featured posts from each community and having seperate feeds for each community
+
+- Only having seperate feeds
+
+In the end, I decided for the second option as it feel kinda empty not having a personal feed but I wanted to still have the user engage with each community instead of just using their personal feed as their main piece of content.
+
 
 
 
