@@ -15,7 +15,7 @@ Thus, artBook is designed to give easier access to fanart content, by creating c
 
 ## Concepts
 
-#### Community[User, Item]
+### Community[User, Item]
 
 **Purpose**
 
@@ -56,7 +56,7 @@ A user joins a community to check out items related to a certain topic made by o
     lookItems(community: ID, out items: Items):
         return community.items
 
-#### Image Posting[User, Image]
+### Image Posting[User, Image]
 
 **Purpose**
 
@@ -74,18 +74,20 @@ An user makes a post and other users see the post
 
 **Actions**
 
-    addPost(im: Image, creator: User)
+    addPost(im: Image, creator: User, out post: ID)
         create new post:= new ID
         posts += post
         post.content := im
         post.creator := creator
+
+        return post
 
     deletePost(post:ID)
         posts -= post
         post.content := None
         post.creator := None
 
-#### Favoriting[Item, User]
+### Favoriting[Item, User]
 
 **Purpose**
 
@@ -111,7 +113,7 @@ A user sees an item that they like and so they favorite the item to save it in t
             user.favorites -= item
             item.numFavorites -= 1
 
-#### Featuring[Item]
+### Featuring[Item]
 
 **Purpose**
 
@@ -143,7 +145,7 @@ After an item has gained enough attention from some users, it gets promoted to o
 
         return featured
 
-#### Sessioning[User]
+### Sessioning[User]
 
 **Purpose**
 
@@ -168,7 +170,7 @@ A user starts a session in the platform and can interact with the platform
         if user.active:
             user.active := False
 
-#### Authenticating[User]
+### Authenticating[User]
 
 **Purpose**
 
@@ -201,6 +203,16 @@ A person gives a password and a name to get access to a user in the platform wit
 ---
 
 ## Synchronizations
+
+![Sync1](../../assets/images/assingment3/synchronization1%2061040%20.png)
+
+![Sync2](../../assets/images/assingment3/synchronization2%2061040.png)
+
+---
+
+## Dependency Graph
+
+![Graph](../../assets/images/assingment3/dependency%20graph%2061040.png)
 
 ---
 
