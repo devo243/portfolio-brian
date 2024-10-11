@@ -9,7 +9,7 @@ layout: doc
 
 ## Concepts
 
-### Community[User, Item]
+### Community[User]
 
 **Purpose**
 
@@ -17,7 +17,7 @@ Users can join groups dedicated to a certain topic
 
 **Operation Principle**
 
-A user joins a community to check out items related to a certain topic made by other users, and add their own items.
+A user joins a community about a certain topic with other users that share the same interest.
 
 **State**
 
@@ -25,7 +25,6 @@ A user joins a community to check out items related to a certain topic made by o
     title: community -> One String
     description: community -> One String
     numMembers: community -> One Integer
-    items: community -> Set Items
     members: community -> Set Users
 
 **Actions**
@@ -35,7 +34,6 @@ A user joins a community to check out items related to a certain topic made by o
         community.title := title
         community.description := desc
         community.members := new ID[]
-        community.items := new ID[]
         community.numMembers := 0
 
     delete(community: ID):
@@ -43,7 +41,6 @@ A user joins a community to check out items related to a certain topic made by o
         community.title := None
         community.description := None
         community.members := None
-        community.items := None
         community.numMembers := None
 
     join(member: User, community: ID):
@@ -55,16 +52,6 @@ A user joins a community to check out items related to a certain topic made by o
         if member in community.members:
             community.members -= member
             community.numMembers -= 1
-
-    addItem(item: Item, community: ID):
-        community.items += item
-    
-    deleteItem(item: Item, community: ID):
-        if item in community.items:
-            community.items -= item
-
-    lookItems(community: ID, out items: Items):
-        return community.items
 
 ### Image Posting[User, Image]
 
@@ -210,7 +197,62 @@ A person gives a password and a name to get access to a user in the platform wit
             user.password := password
             users += user
 
+### Feeding[Item]
+
+**Purpose**
+
+To group similar items in a singular Feeding
+
+**Operation Principle**
+
+A user sees a feed and looks for items in the feed or adds an item to the feed.
+
+**State**
+
+    feeds: Set IDs
+    items: feed -> Set Items
+
+**Actions**
+    add(item: Item, feed: ID):
+        if item not in feed:
+            feed.items += item
+    
+    delete(item: Item, feed: ID):
+        if item in feed:
+            feed.items -= item
+
+    getItems(feed: ID):
+        return feed.items
 ---
+
+## App Data Model
+
+
+
+    app artBook
+
+        include Authenticating,
+        Sessioning[Authenticating.User],
+        Posting[Authenticating.User, Image],
+        Communiting[Authenticating.User],
+        Favoriting[Posting.Post, Authenticating.User],
+        Feeding[Communiting.Community, Posting.Post],
+        Featuring[Posting.Post]
+
+---
+
+## Diagram
+
+![Diagram](../../assets/images/assignment4/diagram.png)
+
+---
+
+## Reflection
+
+While creating the backend, I needed to revisit the concept of Communiting as I left two important actions which are creating and deleting a community. In addition, I felt that the concept itself was too complex, especially having community as also a set of Items. As so, I had two options: either leave as it is, or create a new concept. In the end, I chose to create a new concept Feed that would just manage having this collection of Items. I decided to go for this option as it made the community concept more clear and concise, and having the Feed concept gave me more flexibility for the app.
+
+In summary, developing the backend, gave me appreciation on having clear concepts which before I didn't appreciate it. As such, I made my concepts more concise, either by separating concepts or clearing up definitions.
+
 
 ## [GitHub](https://github.com/devo243/artBook)
 
