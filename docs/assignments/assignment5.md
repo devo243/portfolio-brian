@@ -64,3 +64,5 @@ layout: doc
 ## [Github](https://github.com/devo243/artbook-frontend)
 
 ## [Vercel](https://artbook-frontend.vercel.app/)
+
+## [Visual Study](https://docs.google.com/presentation/d/1BxGB6b-WZOBRz_ka5HbSZXXIwIruU7k6dUHWRqpjCdk/edit?usp=sharing)
